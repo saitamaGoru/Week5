@@ -1,12 +1,14 @@
-package comission;
+package basepluscomission;
 
-public class ComissionEmployee extends Object //inherits from the class object, toString can be overrided, extends keyword used for inheritance  
+
+
+public class ComissionEmployee //extends Object //inherits from the class object, toString can be overrided, extends keyword used for inheritance  
 {
-	private final String fName; //final and constants never chnge, value can be changed through out the execution of objct
-	private final String lName;
-	private final String SocialSecurityNumber;
-	private double  grossSale;
-	private double  comissionRate;
+	protected final String fName; //final and constants never chnge, value can be changed through out the execution of objct
+	protected final String lName;
+	protected final String SocialSecurityNumber;
+	protected double  grossSale;
+	protected double  comissionRate;
 	
 	public ComissionEmployee(String fName, String lName, String SocialSecurityNumber, double grossSale, double comissionRate)
 	{

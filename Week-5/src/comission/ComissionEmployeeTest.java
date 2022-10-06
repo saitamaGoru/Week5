@@ -15,8 +15,9 @@ public class ComissionEmployeeTest {
 		
 		emp.setGrossSale(5000);
 		emp.setComissionRate(0.1);
-		System.out.printf("%n%s %.2f%n", "Gross Sale is:",emp.getGrossSale());
-		System.out.printf("%n%s %.2f%n", "Comission Rate  is:",emp.getComissionRate());
+		
+		System.out.printf("%n%s:%n%n%s%n","Updated information obtained by toString",emp);
+		
 	}
 
 }
