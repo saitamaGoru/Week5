@@ -16,6 +16,9 @@ public class BasePlusComissionEmployeeTest {
 		System.out.printf("%n%s %.2f%n", "Base Salary  is:",emp.getBaseSalary());
 		System.out.printf("%n%s %.2f%n", "Earnings  is:",emp.earnings());
 		
+		emp.setBaseSalary(1000);
+		System.out.printf("%n%s:%n%n%s%n","Updated information obtained by toString",emp.toString());
+		
 	}
 
 }
