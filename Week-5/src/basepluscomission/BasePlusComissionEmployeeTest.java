@@ -1,10 +1,11 @@
-package comission;
+package basepluscomission;
 
-public class ComissionEmployeeTest {
+public class BasePlusComissionEmployeeTest {
 
 	public static void main(String[] args) {
+	
 		// TODO Auto-generated method stub
-		ComissionEmployee emp = new ComissionEmployee("Sue","James","22-233-123",1000,0.6);
+		BasePlusComissionEmployee emp = new BasePlusComissionEmployee("Julia","Sanders","444-555-112",50000,.04,300);
 		
 		System.out.println("Employee information obtained by get Methoods:");
 		System.out.printf("%n%s %s%n", "First name is:",emp.getfName());
@@ -12,12 +13,8 @@ public class ComissionEmployeeTest {
 		System.out.printf("%n%s %s%n", "Social Security Number is:",emp.SocialSecurityNumber());
 		System.out.printf("%n%s %.2f%n", "Gross Sale is:",emp.getGrossSale());
 		System.out.printf("%n%s %.2f%n", "Comission Rate  is:",emp.getComissionRate());
+		System.out.printf("%n%s %.2f%n", "Base Salary  is:",emp.getBaseSalary());
 		System.out.printf("%n%s %.2f%n", "Earnings  is:",emp.earnings());
-		
-		emp.setGrossSale(5000);
-		emp.setComissionRate(0.1);
-		
-		System.out.printf("%n%s:%n%n%s%n","Updated information obtained by toString",emp);
 		
 	}
 
